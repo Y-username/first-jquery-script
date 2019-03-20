@@ -1,26 +1,8 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+#### $(document).ready(function(){})
+1. to run jQuery after the HTML is fully rendered and DOM fully loaded. and put all jQuery commands inside {}
+2. keep style and content seperate and change HTML style. so to change CSS using predefined classes rather than inline styles
 
-
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, we included a small hello world application.
-
-1) Open the hello-world.html file
-
-2) Click on the Preview button to open a live preview pane
-
-3) Make some changes to the file, save, watch the preview, and have fun!
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+####  keypoint 
+1. .css function changes HTML using inline styles
+2. instead, we use .addClass() function and create new classed in style element. eg.$("ul").addClass("border")  
+3. $("tr:odd").addClass("odd");  to add .odd class to odd line in table
